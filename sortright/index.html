@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SortRight — Waste Segregation Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-dots"></div>
+    <div class="hero-content">
+      <div class="badge">♻️ Waste Education Initiative</div>
+      <h1>Sort it <span class="green">Right.</span><br />Save the <span class="blue">Planet</span> <span class="red">Now.</span></h1>
+      <p>Learn how to segregate your waste properly. Click on any item below to discover the correct disposal method and help protect our environment.</p>
+      <button class="hero-cta" onclick="document.getElementById('sorter').scrollIntoView({ behavior: 'smooth' })">
+        Start Sorting ↓
+      </button>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="arrow"></div>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="stats-bar">
+    <div class="stat-item"><span class="stat-num g">2.01B</span><div class="stat-label">Tonnes of waste per year</div></div>
+    <div class="stat-item"><span class="stat-num b">75%</span><div class="stat-label">Could be recycled globally</div></div>
+    <div class="stat-item"><span class="stat-num r">91%</span><div class="stat-label">Plastic never recycled</div></div>
+    <div class="stat-item"><span class="stat-num g">1 ton</span><div class="stat-label">Paper saves 17 trees</div></div>
+  </div>
+
+  <!-- WASTE SORTER -->
+  <section class="main-section" id="sorter">
+    <div class="section-header">
+      <h2>What's in your bin?</h2>
+      <p>Click any item to learn how to dispose of it properly</p>
+    </div>
+    <div class="cat-tabs">
+      <button class="cat-tab active" data-cat="all" onclick="filterCards('all', this)"><span class="dot"></span> All Items</button>
+      <button class="cat-tab" data-cat="bio" onclick="filterCards('bio', this)"><span class="dot"></span> Biodegradable</button>
+      <button class="cat-tab" data-cat="rec" onclick="filterCards('rec', this)"><span class="dot"></span> Recyclable</button>
+      <button class="cat-tab" data-cat="haz" onclick="filterCards('haz', this)"><span class="dot"></span> Hazardous</button>
+    </div>
+    <div class="waste-grid" id="wasteGrid"></div>
+  </section>
+
+  <!-- BINS INFO -->
+  <section class="bins-section">
+    <div class="section-header">
+      <h2>Know Your Bins</h2>
+      <p>Each bin serves a specific purpose in the waste management ecosystem</p>
+    </div>
+    <div class="bins-grid">
+      <div class="bin-card bio">
+        <span class="bin-icon-large">🟢</span>
+        <h3>Green Bin — Biodegradable</h3>
+        <p>Organic waste that can decompose naturally and be converted into compost or biogas.</p>
+        <div class="examples-list">
+          <span class="example-chip">Food scraps</span>
+          <span class="example-chip">Fruit peels</span>
+          <span class="example-chip">Garden waste</span>
+          <span class="example-chip">Eggshells</span>
+          <span class="example-chip">Tea leaves</span>
+          <span class="example-chip">Newspaper</span>
+        </div>
+      </div>
+      <div class="bin-card rec">
+        <span class="bin-icon-large">🔵</span>
+        <h3>Blue Bin — Recyclable</h3>
+        <p>Dry materials that can be processed and reused to create new products, saving energy and resources.</p>
+        <div class="examples-list">
+          <span class="example-chip">Plastic bottles</span>
+          <span class="example-chip">Cardboard</span>
+          <span class="example-chip">Glass jars</span>
+          <span class="example-chip">Metal cans</span>
+          <span class="example-chip">Paper</span>
+          <span class="example-chip">Electronics</span>
+        </div>
+      </div>
+      <div class="bin-card haz">
+        <span class="bin-icon-large">🔴</span>
+        <h3>Red Bin — Hazardous</h3>
+        <p>Dangerous materials that require special handling and disposal to prevent harm to people and the environment.</p>
+        <div class="examples-list">
+          <span class="example-chip">Batteries</span>
+          <span class="example-chip">Chemicals</span>
+          <span class="example-chip">Medicines</span>
+          <span class="example-chip">Paint</span>
+          <span class="example-chip">Syringes</span>
+          <span class="example-chip">Pesticides</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section class="quiz-section">
+    <div class="section-header">
+      <h2>Test your knowledge 🧠</h2>
+      <p>Can you sort these items correctly?</p>
+    </div>
+    <div class="quiz-box">
+      <div id="quizActive">
+        <div class="quiz-progress">
+          <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+          <span class="progress-text" id="progressText">1 / 8</span>
+        </div>
+        <div class="quiz-q" id="quizQ">Where does this item go?</div>
+        <span class="quiz-emoji" id="quizEmoji">🍌</span>
+        <div class="quiz-hint" id="quizHint">Banana peel</div>
+        <div class="quiz-options">
+          <button class="quiz-opt" onclick="answerQuiz('bio', this)"><span class="opt-icon">🟢</span> Biodegradable</button>
+          <button class="quiz-opt" onclick="answerQuiz('rec', this)"><span class="opt-icon">🔵</span> Recyclable</button>
+          <button class="quiz-opt" onclick="answerQuiz('haz', this)"><span class="opt-icon">🔴</span> Hazardous</button>
+        </div>
+        <div class="quiz-feedback" id="quizFeedback"></div>
+        <button class="next-btn" id="nextBtn" onclick="nextQuestion()">Next Question →</button>
+      </div>
+      <div class="quiz-score" id="quizScore">
+        <div class="score-emoji" id="scoreEmoji">🏆</div>
+        <div class="score-num" id="scoreNum">0/8</div>
+        <div class="score-msg" id="scoreMsg"></div>
+        <button class="restart-btn" onclick="restartQuiz()">Try Again ↺</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIPS -->
+  <section class="tips-section">
+    <div class="section-header">
+      <h2>Smart Disposal Tips</h2>
+      <p>Small actions, massive impact</p>
+    </div>
+    <div class="tips-grid">
+      <div class="tip-card"><span class="tip-icon">🧴</span><h4>Rinse Before Recycling</h4><p>Always rinse food containers before placing them in the recycling bin to avoid contaminating other recyclables.</p></div>
+      <div class="tip-card"><span class="tip-icon">🌿</span><h4>Compost at Home</h4><p>Start a small compost bin for kitchen scraps. It reduces landfill waste and creates rich fertilizer for plants.</p></div>
+      <div class="tip-card"><span class="tip-icon">⚠️</span><h4>Never Mix Hazardous</h4><p>Never put hazardous waste in regular bins. Take them to designated collection points or facilities.</p></div>
+      <div class="tip-card"><span class="tip-icon">📦</span><h4>Break Down Cardboard</h4><p>Flatten all cardboard boxes before recycling to save space and make processing easier at facilities.</p></div>
+      <div class="tip-card"><span class="tip-icon">🔋</span><h4>Battery Drop-offs</h4><p>Most electronics stores have free battery recycling drop-off points. Batteries contain toxic heavy metals.</p></div>
+      <div class="tip-card"><span class="tip-icon">👕</span><h4>Donate Old Clothes</h4><p>Textiles that can't be recycled traditionally should be donated or taken to textile recycling programs.</p></div>
+    </div>
+  </section>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+    <div class="modal" id="modal">
+      <button class="modal-close" onclick="closeModal(true)">✕</button>
+      <div class="modal-header">
+        <span class="modal-icon" id="modalIcon"></span>
+        <div class="modal-cat-label" id="modalCat"></div>
+        <h3 id="modalTitle"></h3>
+      </div>
+      <div class="modal-body">
+        <p class="modal-desc" id="modalDesc"></p>
+        <div class="modal-steps" id="modalSteps"></div>
+        <div class="modal-bin" id="modalBin"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <strong>SortRight</strong> — Waste Segregation Awareness &nbsp;•&nbsp; Every item sorted correctly makes a difference 🌍
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
