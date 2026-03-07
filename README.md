@@ -1,4 +1,4 @@
-
+<div align="center">
 
 # ♻️ SortRight
 
@@ -6,7 +6,9 @@
 
 *Educating people on proper waste disposal through animated item cards, step-by-step guides, and gamified quizzes.*
 
-[🌐 Live Demo]-visionary-dusk-a46a5a.netlify.app
+[🌐 Live Demo](https://visionary-dusk-a46a5a.netlify.app) &nbsp;•&nbsp; [🚀 Getting Started](#-getting-started) &nbsp;•&nbsp; [📁 Project Structure](#-project-structure)
+
+</div>
 
 ---
 
@@ -59,7 +61,6 @@
 - [Live Server Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ### Run Locally
-
 ```bash
 # 1. Clone the repository
 git clone https://github.com/yourusername/sortright.git
@@ -78,47 +79,3 @@ http://127.0.0.1:5500/index.html
 ---
 
 ## 📁 Project Structure
-
-```
-sortright/
-├── index.html          ← Page structure and layout
-├── css/
-│   └── style.css       ← Styles, variables, animations
-└── js/
-    ├── data.js         ← Waste items and quiz questions
-    ├── modal.js        ← Modal open/close logic
-    ├── quiz.js         ← Quiz state and scoring
-    └── main.js         ← Grid builder and filters
-```
-
----
-
-## Deployment
-
-**Netlify** *(recommended)* — drag and drop the `sortright` folder at [netlify.com](https://netlify.com) for an instant live link.
-
-**GitHub Pages** — go to **Settings → Pages → main branch** and your site goes live at `yourusername.github.io/sortright`.
-
----
-
-## Future Improvements
-
-- [ ] Search bar for finding waste items quickly
-- [ ] Multi-language support (Hindi, regional languages)
-- [ ] More waste items (target: 50+)
-- [ ] Drag-and-drop bin sorting game
-- [ ] WhatsApp share button for individual items
-
----
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-<div align="center">
-
-*Every item sorted correctly makes a difference.* 🌍
-
-</div>
