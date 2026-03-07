@@ -6,7 +6,7 @@
 
 *Educating people on proper waste disposal through animated item cards, step-by-step guides, and gamified quizzes.*
 
-[🌐 Live Demo]
+[🌐 Live Demo]-visionary-dusk-a46a5a.netlify.app
 
 ---
 
