@@ -56,16 +56,16 @@ Nearly 75% could be recycled if properly sorted.
 ## Screenshots
 
 ### Biodegradable Waste Cards
-![Biodegradable Cards](screenshots/Biodegradable-cards)
+![Biodegradable Cards](Screenshots/Biodegradable-cards)
 
 ### Recyclable Waste Cards
-![Recyclable Cards](screenshots/Recyclable-cards)
+![Recyclable Cards](Screenshots/Recyclable-cards)
 
 ### Smart Disposal Tips
-![Tips](screenshots/Tips)
+![Tips](Screenshots/Tips)
 
 ### Quiz Section
-![Quiz](screenshots/Quiz)
+![Quiz](Screenshots/Quiz)
 
 Features
 Interactive Waste Cards
