@@ -1,186 +1,196 @@
 <div align="center">
-♻️ SortRight
-Smart Waste Segregation Awareness Platform
+
+# ♻️ SortRight
+
+### Smart Waste Segregation Awareness Platform
 
 An interactive website that teaches people how to correctly sort waste using visual cards, disposal guides, and quizzes.
 
-🌐 Live Demo
+🌐 **Live Demo**  
 https://visionary-dusk-a46a5a.netlify.app
 
-
-
-
-
-
-
-
-
-
 </div>
-Table of Contents
 
-Overview
+---
 
-Screenshots
+## 📑 Table of Contents
 
-Features
+- Overview
+- Screenshots
+- Features
+- Waste Categories
+- Tech Stack
+- Getting Started
+- Project Structure
+- Deployment
+- Future Improvements
+- License
 
-Waste Categories
+---
 
-Tech Stack
+## 🌍 Overview
 
-Getting Started
+**SortRight** is a responsive educational web application designed to teach proper waste segregation.
 
-Project Structure
+Instead of long informational pages, users interact with waste items and instantly learn:
 
-Deployment
+- 🗑️ Where the waste belongs  
+- ♻️ How it should be disposed  
+- 🌱 Why proper segregation matters  
 
-Future Improvements
+The goal is simple: make waste education **visual, interactive, and memorable**.
 
-License
+> The world generates **2.01 billion tonnes of waste every year.**  
+> Nearly **75% could be recycled if properly sorted.**
 
-Overview
+---
 
-SortRight is a responsive educational web application designed to teach proper waste segregation.
-
-Instead of long informational text, users interact with waste items and immediately learn:
-
-• where the waste belongs
-• how it should be disposed
-• why proper segregation matters
-
-The idea is simple: make waste education visual, interactive, and memorable.
-
-The world generates 2.01 billion tonnes of waste every year.
-Nearly 75% could be recycled if properly sorted.
-
-## Screenshots
+## 📸 Screenshots
 
 ### Biodegradable Waste Cards
 <a href="sortright/screenshots/Biodegradable-cards.jpeg">
-  <img src="sortright/screenshots/Biodegradable-cards.jpeg" width="100">
+<img src="sortright/screenshots/Biodegradable-cards.jpeg" width="120">
 </a>
 
 ### Recyclable Waste Cards
 <a href="sortright/screenshots/Recyclable-cards.jpeg">
-  <img src="sortright/screenshots/Recyclable-cards.jpeg" width="100">
+<img src="sortright/screenshots/Recyclable-cards.jpeg" width="120">
 </a>
 
 ### Smart Disposal Tips
 <a href="sortright/screenshots/Tips.jpeg">
-  <img src="sortright/screenshots/Tips.jpeg" width="100">
+<img src="sortright/screenshots/Tips.jpeg" width="120">
 </a>
 
 ### Quiz Section
 <a href="sortright/screenshots/Quiz.jpeg">
-  <img src="sortright/screenshots/Quiz.jpeg" width="100">
+<img src="sortright/screenshots/Quiz.jpeg" width="120">
 </a>
 
 ### Landing Page
 <a href="sortright/screenshots/Landing Page.jpeg">
-  <img src="sortright/screenshots/Landing Page.jpeg" width="100">
+<img src="sortright/screenshots/Landing Page.jpeg" width="120">
 </a>
 
-Features
-Interactive Waste Cards
+---
 
-18 waste items displayed as clickable cards. Each card opens a disposal guide.
+## ✨ Features
 
-Category Filtering
+- 🗂️ **Interactive Waste Cards**  
+  18 waste items displayed as clickable cards. Each card opens a disposal guide.
 
-Users can filter waste items by category.
+- 🔍 **Category Filtering**  
+  Users can filter waste items by type:
+  - 🟢 Biodegradable
+  - 🔵 Recyclable
+  - 🔴 Hazardous
 
-🟢 Biodegradable
+- 🗑️ **Know Your Bins**  
+  Clear explanation of what belongs in each waste bin.
 
-🔵 Recyclable
+- 🧠 **Gamified Quiz**  
+  8-question quiz with instant score and explanations.
 
-🔴 Hazardous
+- 💡 **Practical Disposal Tips**  
+  Real-life tips to improve everyday waste habits.
 
-Know Your Bins
+- 📱 **Fully Responsive**  
+  Works smoothly on mobile, tablet, and desktop devices.
 
-Clear explanation of what belongs in each waste bin.
+---
 
-Gamified Quiz
+## ♻️ Waste Categories
 
-8-question quiz with instant score and explanations.
+| Category | Examples |
+|--------|--------|
+| 🟢 Biodegradable | Banana peel, eggshells, food scraps |
+| 🔵 Recyclable | Plastic bottles, cardboard, metal cans |
+| 🔴 Hazardous | Batteries, medicines, CFL bulbs |
 
-Practical Disposal Tips
+---
 
-Real-life tips to help people adopt better waste habits.
+## 🛠 Tech Stack
 
-Fully Responsive
+| Technology | Purpose |
+|-----------|-----------|
+| HTML5 | Website structure |
+| CSS3 | Styling and layout |
+| JavaScript | Interactivity and quiz logic |
+| Google Fonts | Typography |
 
-Works smoothly on mobile, tablet, and desktop devices.
+No frameworks were used.  
+This project focuses on **clean core web technologies**.
 
-Waste Categories
-Category	Examples
-🟢 Biodegradable	Banana peel, eggshells, food scraps
-🔵 Recyclable	Plastic bottles, cardboard, metal cans
-🔴 Hazardous	Batteries, medicines, CFL bulbs
-Tech Stack
-Technology	Purpose
-HTML5	Structure
-CSS3	Styling and layout
-JavaScript	Interactivity and quiz logic
-Google Fonts	Typography
+---
 
-No frameworks were used.
-The project focuses on clean core web technologies.
+## 🚀 Getting Started
 
-Getting Started
-Prerequisites
+### Prerequisites
 
 Install:
 
-• VS Code
-• Live Server Extension
+- VS Code
+- Live Server Extension
 
-Run Locally
+---
+
+### Run Locally
 
 Clone the repository
 
+
 git clone https://github.com/ApurvaPatil96/sortright.git
 
-Open the project folder in VS Code.
 
-Right click index.html
+Open the project folder in **VS Code**.
 
-Select:
+Right click **index.html**
 
-Open with Live Server
+Select **Open with Live Server**
 
 Then open in browser:
 
+
 http://127.0.0.1:5500/index.html
 
-No installation needed.
 
-## Project Structure
+No installation required.
+
+---
+
+## 📂 Project Structure
+
 
 sortright
 │
 ├── index.html
 │
 ├── css
-│   └── style.css
+│ └── style.css
 │
 ├── js
-│   ├── data.js
-│   ├── modal.js
-│   ├── quiz.js
-│   └── main.js
+│ ├── data.js
+│ ├── modal.js
+│ ├── quiz.js
+│ └── main.js
 │
 └── screenshots
-    ├── biodegradable-cards.png
-    ├── recyclable-cards.png
-    ├── tips.png
-    └── quiz.png
-Deployment
-Netlify
+├── Biodegradable-cards.jpeg
+├── Recyclable-cards.jpeg
+├── Tips.jpeg
+├── Quiz.jpeg
+└── Landing Page.jpeg
 
-Upload the project folder to Netlify to generate a live link instantly.
 
-GitHub Pages
+---
+
+## 🌐 Deployment
+
+### Netlify
+
+Upload the project folder to **Netlify** to generate an instant live link.
+
+### GitHub Pages
 
 Go to:
 
@@ -188,25 +198,30 @@ Settings → Pages → Main Branch
 
 Your project will be available at:
 
+
 ApurvaPatil96.github.io/sortright
-Future Improvements
 
-Add search functionality
 
-Support regional languages
+---
 
-Increase waste items to 50+
+## 🔮 Future Improvements
 
-Drag-and-drop waste sorting game
+- 🔎 Add search functionality
+- 🌐 Support regional languages
+- ➕ Increase waste items to 50+
+- 🎮 Drag-and-drop waste sorting game
+- 📤 Share items via WhatsApp
 
-Share items via WhatsApp
+---
 
-License
+## 📄 License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the **MIT License**.
+
+---
 
 <div align="center">
 
-🌍 Every correctly sorted item helps protect the planet
+🌍 **Every correctly sorted item helps protect the planet**
 
 </div>
