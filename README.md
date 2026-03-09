@@ -68,7 +68,7 @@ Nearly 75% could be recycled if properly sorted.
 
 ### Smart Disposal Tips
 <a href="screenshots/Tips.jpeg">
-  <img src="screenshots/Tips.jpeg" width="100">
+  <img src="sortright/screenshots/Tips.jpeg" width="100">
 </a>
 
 ### Quiz Section
