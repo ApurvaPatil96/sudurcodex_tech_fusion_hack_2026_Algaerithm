@@ -63,22 +63,22 @@ Nearly 75% could be recycled if properly sorted.
 
 ### Recyclable Waste Cards
 <a href="screenshots/Recyclable-cards.jpeg">
-  <img src="sortright/screenshots/Recyclable-cards.jpeg" width="500">
+  <img src="sortright/screenshots/Recyclable-cards.jpeg" width="100">
 </a>
 
 ### Smart Disposal Tips
 <a href="screenshots/Tips.jpeg">
-  <img src="screenshots/Tips.jpeg" width="500">
+  <img src="screenshots/Tips.jpeg" width="100">
 </a>
 
 ### Quiz Section
 <a href="screenshots/Quiz.jpeg">
-  <img src="screenshots/Quiz.jpeg" width="500">
+  <img src="sortright/screenshots/Quiz.jpeg" width="100">
 </a>
 
 ### Landing Page
 <a href="screenshots/Landing Page.jpeg">
-  <img src="screenshots/Landing Page.jpeg" width="500">
+  <img src="screenshots/Landing Page.jpeg" width="100">
 </a>
 
 Features
