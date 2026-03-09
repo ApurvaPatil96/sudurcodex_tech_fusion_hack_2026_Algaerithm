@@ -57,16 +57,24 @@ Screenshots
 ## Screenshots
 
 ### Biodegradable Waste Cards
-![Biodegradable Cards](screenshots/Biodegradable-cards.png)
+<p align="center">
+  <img src="screenshots/biodegradable-cards.png" width="600">
+</p>
 
 ### Recyclable Waste Cards
-![Recyclable Cards](screenshots/Recyclable-cards.png)
+<p align="center">
+  <img src="screenshots/recyclable-cards.png" width="600">
+</p>
 
 ### Smart Disposal Tips
-![Tips](screenshots/Tips.png)
+<p align="center">
+  <img src="screenshots/tips.png" width="600">
+</p>
 
 ### Quiz Section
-![Quiz](screenshots/Quiz.png)
+<p align="center">
+  <img src="screenshots/quiz.png" width="600">
+</p>
 
 Features
 Interactive Waste Cards
