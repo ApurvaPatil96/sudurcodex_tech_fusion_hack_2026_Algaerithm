@@ -10,10 +10,6 @@ https://visionary-dusk-a46a5a.netlify.app
 
 
 
-
-
-
-
 </div>
 Table of Contents
 
@@ -141,7 +137,8 @@ http://127.0.0.1:5500/index.html
 
 No installation needed.
 
-Project Structure
+## Project Structure
+
 sortright
 │
 ├── index.html
@@ -158,7 +155,8 @@ sortright
 └── screenshots
     ├── biodegradable-cards.png
     ├── recyclable-cards.png
-    └── tips.png
+    ├── tips.png
+    └── quiz.png
 Deployment
 Netlify
 
