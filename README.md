@@ -63,7 +63,7 @@ Nearly 75% could be recycled if properly sorted.
 
 ### Recyclable Waste Cards
 <a href="screenshots/Recyclable-cards.jpeg">
-  <img src="screenshots/Recyclable-cards.jpeg" width="500">
+  <img src="sortright/screenshots/Recyclable-cards.jpeg" width="500">
 </a>
 
 ### Smart Disposal Tips
