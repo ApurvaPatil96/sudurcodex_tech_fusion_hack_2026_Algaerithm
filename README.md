@@ -58,7 +58,7 @@ Nearly 75% could be recycled if properly sorted.
 
 ### Biodegradable Waste Cards
 <a href="screenshots/Biodegradable-cards.jpeg">
-  <img src="sortright/screenshots/Biodegradable-cards.jpeg" width="500">
+  <img src="sortright/screenshots/Biodegradable-cards.jpeg" width="100">
 </a>
 
 ### Recyclable Waste Cards
