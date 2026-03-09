@@ -53,27 +53,26 @@ The idea is simple: make waste education visual, interactive, and memorable.
 The world generates 2.01 billion tonnes of waste every year.
 Nearly 75% could be recycled if properly sorted.
 
-Screenshots
 ## Screenshots
 
 ### Biodegradable Waste Cards
 <p align="center">
-  <img src="screenshots/biodegradable-cards.png" width="600">
+  <img src="Screenshots/Biodegradable-cards.png" width="600">
 </p>
 
 ### Recyclable Waste Cards
 <p align="center">
-  <img src="screenshots/recyclable-cards.png" width="600">
+  <img src="Screenshots/Recyclable-cards.png" width="600">
 </p>
 
 ### Smart Disposal Tips
 <p align="center">
-  <img src="screenshots/tips.png" width="600">
+  <img src="Screenshots/Tips.png" width="600">
 </p>
 
 ### Quiz Section
 <p align="center">
-  <img src="screenshots/quiz.png" width="600">
+  <img src="Screenshots/Quiz.png" width="600">
 </p>
 
 Features
