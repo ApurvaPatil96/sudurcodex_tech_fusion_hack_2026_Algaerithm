@@ -78,7 +78,7 @@ Nearly 75% could be recycled if properly sorted.
 
 ### Landing Page
 <a href="screenshots/Landing Page.jpeg">
-  <img src="screenshots/Landing Page.jpeg" width="100">
+  <img src="sortright/screenshots/Landing Page.jpeg" width="100">
 </a>
 
 Features
